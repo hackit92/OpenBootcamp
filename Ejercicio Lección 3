@@ -1,0 +1,36 @@
+//Primera parte: 
+Crear una función con tres parámetros que sean números que se suman entre sí.
+Llamar a la función en el main y darle valores.//
+
+
+funcionsumar (param1, param2, param3){
+var resultado = (param1+param2+param3);
+return resultado;
+}
+
+funcionsumar (1,15,22);
+
+
+//Segunda parte:
+Crear una clase coche.
+Dentro de la clase coche, una variable numérica que almacene el número de puertas que tiene.
+Una función que incremente el número de puertas que tiene el coche.
+Crear un objeto miCoche en el main y añadirle una puerta.
+Mostrar el número de puertas que tiene el objeto.//
+
+class coche = {
+  puertasN:1,
+};
+
+function sumapuerta(puertas) {
+  puertasN+1;
+}
+
+element.addEventListener("click", sumapuerta(){ alert("Añadiste una puerta!"); });
+
+const miCoche = {
+  nombre: 'Spark',
+  categoria: 'compacto',
+  puertas: puertasN
+}
+console.log (miCoche);
